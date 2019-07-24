@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostAcitivity">
+    <Button
+        android:id="@+id/btnGetPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getPosts"
+        android:text="Get Posts"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnPostPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="postPosts"
+        android:text="Post Posts"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnPutPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="putPost"
+        android:text="Put Posts"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnDeletePost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deletePost"
+        android:text="Delete Post"
+        android:textAllCaps="false" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
