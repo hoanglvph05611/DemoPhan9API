@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnHttpURL(View view) {
+        Intent intent = new Intent(this,HttpURLActivity.class);
+        startActivity(intent);
     }
 
     public void btnUpdateView(View view) {

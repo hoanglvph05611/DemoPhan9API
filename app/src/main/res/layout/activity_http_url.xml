@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".HttpURLActivity">
     <Button
         android:text="http get"
@@ -11,5 +12,12 @@
         android:id="@+id/btnHttpGet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerView">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>

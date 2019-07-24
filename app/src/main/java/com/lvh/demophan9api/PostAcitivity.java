@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.lvh.demophan9api.model.Post;
 
 import java.util.HashMap;
 import java.util.List;

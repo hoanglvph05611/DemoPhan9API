@@ -1,4 +1,4 @@
-package com.lvh.demophan9api;
+package com.lvh.demophan9api.model;
 
 import com.google.gson.annotations.SerializedName;
 

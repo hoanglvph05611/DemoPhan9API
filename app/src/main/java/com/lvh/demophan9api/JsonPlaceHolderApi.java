@@ -1,5 +1,7 @@
 package com.lvh.demophan9api;
 
+import com.lvh.demophan9api.model.Post;
+
 import java.util.List;
 import java.util.Map;
 
