@@ -2,7 +2,9 @@ package com.lvh.demophan9api.model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Post {
+import java.util.List;
+
+public class Post  {
     private int userId;
 
     private Integer id;

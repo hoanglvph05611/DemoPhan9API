@@ -45,4 +45,6 @@ public interface JsonPlaceHolderApi {
 
     @DELETE("posys/{id}")
     Call<Void> deletePost(@Path("id") int id);
+
+
 }
